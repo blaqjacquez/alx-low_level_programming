@@ -16,6 +16,6 @@ void print_alphabet_x10(void)
 			lowercase++;
 		}
 		_putchar('\n');
-		lowercase = "a";
+		lowercase = 'a';
 	}
 }

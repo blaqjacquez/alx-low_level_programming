@@ -2,11 +2,11 @@
 /**
  * _abs - checks for the absolute number of an integer
  *
- * @int: is the integer
+ * @n: an integer
  *
  * Return: always -n if true n if false
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 		return (-n);

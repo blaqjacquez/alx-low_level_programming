@@ -2,7 +2,7 @@
 /**
  * _strlen - shows string lenght
  * @s: parameter name
- * Return: Always 0 (success)
+ * Return: lenght
  */
 int _strlen(char *s)
 {
@@ -13,5 +13,5 @@ int _strlen(char *s)
 		length++;
 		s++;
 	}
-	return length;
+	return (length);
 }

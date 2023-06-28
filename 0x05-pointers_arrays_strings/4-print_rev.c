@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <unistd.h>
 /**
  * print_rev - print string in reverse
  * @s: parameter name

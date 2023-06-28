@@ -3,7 +3,7 @@
 /**
  * _atoi - converts string to integer
  * @s: parameter name
- * Return: integer
+ * Return: Always 0 (success)
  */
 int _atoi(char *s)
 {
@@ -33,6 +33,9 @@ int _atoi(char *s)
 				break;
 			f = 0;
 		}
+		i++;
 	}
-	i++;
+	if (f == 0)
+		return (0);
+	return (n);
 }

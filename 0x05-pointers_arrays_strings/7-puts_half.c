@@ -6,11 +6,11 @@
  */
 void puts_half(char *str)
 {
-	if (str == NULL)
-		return;
-
 	int length = 0;
 	int i, start_index;
+
+	if (str == NULL)
+		return;
 
 	while (str[length] != '\0')
 		length++;
